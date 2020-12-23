@@ -17,7 +17,7 @@ public class MainApp {
         ApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
 
         DaoProduct daoProduct = context.getBean("daoProduct", DaoProduct.class);
-//        daoProduct.craeteProduct(new Product( "Meat", 80));
+        daoProduct.craeteProduct(new Product( "Meat", 80));
 //        System.out.println(daoProduct.getProduct(5));
 //        daoProduct.updateProduct(new Product(5, "Meat", 75));
 //        daoProduct.deleteProduct(5);
