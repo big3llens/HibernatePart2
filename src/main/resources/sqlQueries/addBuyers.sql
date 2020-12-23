@@ -1,0 +1,10 @@
+INSERT INTO buyer ( `name`) VALUES ('Mick')
+,('Bob')
+,('Alex')
+,('Ivan')
+,('Masha')
+,('Rita')
+,('Kirill')
+,('Max')
+,('Marina')
+,('Eugeny');
